@@ -5,6 +5,7 @@ html{
 
 body{
 	margin: 0%;
+	height: 100%
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
@@ -12,6 +13,7 @@ body{
 .main{
 	color: #fff;
 	font-family: roboto, sans-serif;
+	min-height: 100vh;
 }
 
 .me img {
@@ -19,7 +21,7 @@ body{
 	height: 90px;
 	border-radius: 50%;
 
-	margin-top: 20%;
+	margin-top: 15vh;
 }
 
 .me h1 {
