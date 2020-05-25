@@ -78,7 +78,39 @@ body{
 .listContact ol{
    display: inline;
    text-align: center;
-   padding: 1%;}
+   padding: 1%;
+}
+
+@media only screen and (min-width: 600px) {
+	.me img {
+		margin-top: 16vh;
+		margin-bottom: .5em;
+	}
+
+	.me ol{
+		margin: 2%;
+		display: inline;
+		text-align: center;
+		font-size: 22px;
+	 }
+
+	 .elementos {
+		font-size: 16;
+	    margin: 1vh;
+	}
+
+	.me ul{
+		margin-top: 1.4em;
+	}
+	.contact {
+		margin-top: 15vh;
+
+		border: none;
+	}
+	.contact h2 {
+		font-weight: bold;
+	}
+  }   
 /*TRabajos*/
 
 .trabajos{
