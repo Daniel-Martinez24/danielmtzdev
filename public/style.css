@@ -121,12 +121,38 @@ body{
 	font-family: roboto, sans-serif;
 
 }
-
 .trabajos h1{
+	font-weight: normal;
+	margin: 0px;
+}
+
+.tipo{
+	text-align: left;
+	margin: .5em;
+	margin-bottom: 1em;
+}
+
+.tipo h2{
+	text-align: left;
+	margin: .4em;
+	margin-bottom: .41em;
+
 	font-weight: normal;
 }
 
 .imagenes{
 	display: inline;
+	text-align: center;
 }
 
+.imagenes a{
+	text-decoration: none;
+}
+
+.imagenes img {
+	object-fit: cover;
+
+	width: 30%;
+	height: 15vh;
+	margin-left: 1vh;
+}
