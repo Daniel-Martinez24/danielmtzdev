@@ -115,5 +115,18 @@ body{
 
 .trabajos{
 	background-color: #fff;
-   text-align: center;
+    text-align: center;
+
+	color: #000000;
+	font-family: roboto, sans-serif;
+
 }
+
+.trabajos h1{
+	font-weight: normal;
+}
+
+.imagenes{
+	display: inline;
+}
+
