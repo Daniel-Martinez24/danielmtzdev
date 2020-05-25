@@ -156,3 +156,24 @@ body{
 	height: 15vh;
 	margin-left: 1vh;
 }
+
+@media only screen and (min-width: 600px) {
+
+
+	.tipo h2{
+		margin-left: 1em;
+	}
+
+
+	.tipo{
+		margin: 2em;
+	}
+	
+
+	.imagenes img {
+		height: 30vh;
+		margin-left: 3vh;
+		margin-bottom: 3vh;
+	}
+	
+}
