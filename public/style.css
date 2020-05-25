@@ -222,3 +222,32 @@ body{
 	box-sizing: border-box;
 	border-radius: 10px;
 }
+
+@media only screen and (min-width: 600px) {
+	.contenido {
+		display: flex;
+	}
+
+	.contenido img {
+		width: 45%;
+		height: 60vh;
+		border-radius: 10px;
+	}
+	.contenido div {
+		margin-left: 5%;
+	}
+	.contenido p {
+		margin-top: 12%;
+		font-size: 22px;
+
+		margin-bottom: 6%;
+	}
+	.contenido a {
+		font-size: 22px;
+		text-decoration: none;
+
+		padding: 1%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
